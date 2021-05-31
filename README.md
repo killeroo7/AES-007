@@ -1,5 +1,5 @@
 # AES-007
-A python tool to perform AES Encryption or Decryption.
+A python tool to perform AES Encryption and Decryption.
 
 # USAGE
 1) Encryption
