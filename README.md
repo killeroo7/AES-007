@@ -3,7 +3,7 @@ A python tool to perform AES Encryption and Decryption.
 
 # INSTALLATION
 ```
-gitclone https://github.com/killeroo7/AES-007/
+git clone https://github.com/killeroo7/AES-007/
 cd AES-007 && pip3 install -r requirements.txt
 ```
 
