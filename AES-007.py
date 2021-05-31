@@ -73,7 +73,7 @@ elif args.ciphertext:
 
 
 '''
-#Key Notes About AES
+#Key Notes
 1) AES key must be either 16, 24, or 32 bytes long
 2) IV must be 16 bytes long
 3) Cipher Text must be a multiple of 16 in length. 
