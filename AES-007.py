@@ -30,7 +30,7 @@ def get_args():
         parser.add_argument('--iv',dest='iv',help="IV",required=True)        
         parser.add_argument('-p',dest='plaintext',help="Encrpyted Text")
         parser.add_argument('-c',dest='ciphertext',help="Cipher Text")
-        parser.add_argument('-m','--mode',dest='mode',help="Mode of Operation [default=AES.MODE_CBC]",default=AES.MODE_CBC)
+        parser.add_argument('-m','--mode',dest='mode',help="Mode of Operation [default=AES.MODE_CBC]",default="AES.MODE_CBC")
         args = parser.parse_args()
 
         if not args.plaintext and not args.ciphertext:
